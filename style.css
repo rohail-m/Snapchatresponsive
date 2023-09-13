@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFC00;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search_bar{
+    position: relative;
+}
+
+.search_bar input{
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.search_logo{
+    position: absolute;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.mid_nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.stories,.spotlight,.chat,.lenses,.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_nav i{
+    font-size: 25px;
+}
+
+.right_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.right_nav i{
+    font-size: 30px;
+}
+
+.right_nav button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+}
+
+.main{
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+}
+
+.left_main{
+   
+    width: 30%;
+    
+}
+
+.left_main h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.left_main p{
+    font-size: 30px;
+}
+
+.right_main{
+  
+    height: 100%;
+}
+
+.right_main img{
+    height: 700px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons button.login{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.buttons button.microsoft{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.buttons i{
+    font-size: 25px;
+}
+
+.microsoft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
