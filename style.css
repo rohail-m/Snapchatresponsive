@@ -153,3 +153,122 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+.responsive_nav{
+    display: none;
+}
+
+.main_responsive{
+    display: none;
+  }
+
+@media only screen and (max-width:600px){
+    
+    .responsive_nav{
+        display:block;
+    }
+    .main{
+        display: none;
+    }  
+    
+    nav{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+         }
+      nav .mid_nav{
+        border: none;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+      }
+
+     
+
+      .left_nav{
+        display: none;
+      }
+
+      .menu i{
+        display: none;
+      } 
+      .snapchat_ads{
+        display: none;
+      } 
+      .download{
+        display: none;
+      } 
+
+      .responsive_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .left_responsive{
+        display: flex;
+        gap: 20px;
+      }
+
+      .list_logo_responsive, .search_logo_responsive{
+        background-color: white;
+        border-radius: 20px;
+      }
+
+      .list_logo_responsive i{
+            font-size: 30px;
+      }
+
+      .search_logo_responsive i{
+        font-size: 30px;
+      }
+
+      .snapchat_logo_responsive img{
+        width: 170px;
+        border-radius: 30px;
+      }
+
+      .right_nav_responsive a{
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: larger;
+      }
+
+      .main_responsive{
+        display: block;
+        
+        height: 40vh;
+        padding-top: 50%;
+      }
+
+      .heading_responsive, .para_responsive, .button_responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .para_responsive{
+        margin-top: 2%;
+        width: 50%; 
+        margin-left: 25%;
+        text-align: center;
+      }
+      .button_responsive button{
+        background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 3%;
+      }
+
+
+}
